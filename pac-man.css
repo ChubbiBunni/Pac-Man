@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*INDEX*/
+/*Navigationslinjen*/
+nav{
+	background-image: url("img/banner baggrund.png");
+	background-size: 150px;
+	background-repeat: repeat-x; 
+	background-position: center;
+	display: flex;
+	border-bottom: solid; 
+	border-bottom-color: #FED800;
+	border-bottom-width: 20px;
+}
+
+.logo {
+	padding: 5px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	font-family: "tektur", serif;
+}
