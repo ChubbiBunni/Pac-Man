@@ -3,12 +3,12 @@
 
 /*INDEX*/
 /*Navigationslinjen*/
-nav{
-	background-image: url("img/banner baggrund.png");
-	background-size: 150px;
+.menubar{
+	background-image: url("image/bannerbaggrund.png");
+	background-size: 250px;
 	background-repeat: repeat-x; 
 	background-position: center;
-	display: flex;
+	display: fixed;
 	border-bottom: solid; 
 	border-bottom-color: #FED800;
 	border-bottom-width: 20px;
@@ -22,5 +22,14 @@ nav{
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
-	font-family: "tektur", serif;
+}
+
+.menu li {
+	margin-right: 5px;
+}
+
+.menu img {
+	width:150px;
+	height: 100px;
+	object-fit: contain;
 }
