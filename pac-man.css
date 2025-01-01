@@ -22,14 +22,24 @@
 	display: flex;
 	flex-direction: row;
 	list-style-type: none;
+	position: relative;
+	left: 600px;
+	top: -75px;
 }
 
 .menu li {
 	margin-right: 5px;
+	
 }
 
 .menu img {
 	width:150px;
 	height: 100px;
 	object-fit: contain;
+}
+
+body {
+	background-image: url("image/homebaggrund.png");
+	background-position: ;
+	background-repeat: no-repeat
 }
