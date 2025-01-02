@@ -36,38 +36,37 @@
 	width:150px;
 	height: 100px;
 	object-fit: contain;
-	margin: 0;
 }
 
 .index {
-	overflow: hidden;	
+	overflow: hidden;
 }
 
 .background {
 	position: relative;
-  	top: -880px;
+  	top: -950px;
   	left: 0;
   	width: 100%;
-  	height: 100vh; /* Full screen height */
+  	height: 100vh;
     background-image: url("image/homebaggrund.png");
     background-repeat: repeat;
 	background-size: cover;
 	background-attachment: fixed;
-    z-index: -2;	
+    z-index: -2;
 }
 
 .anniversary {
 	display: block;
 	position: relative;
 	top: -140px;
-	left: 260px;
+	left: 350px;
 	margin: 0;
 	padding: 0;
 	z-index: -1;
 }
 
 .anniversary img {
-	width: 1000px;
+	width: 870px;
 }
 
 .yellowline {
@@ -82,4 +81,18 @@
 	top: -145px;
 	border-top: 200px solid #FF0000; 
   	width: 100%; 
+}
+
+.bandai img {
+	position: relative;
+	top: -180px;
+	left: 600px;
+	width: 20%;
+}
+
+.evolution img {
+	position: relative;
+	top: -170px;
+	left: 620px;
+	width: 17%;
 }
