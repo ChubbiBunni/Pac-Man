@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+	font-family: PacMan;
+	src: url("Font/crackman.front-regular.otf");
+}
 /* CSS Document */
 
 /*INDEX*/
@@ -39,7 +43,7 @@
 }
 
 .index {
-	overflow: hidden;
+	overflow: hidden; /* fjerner scroll-funktion */
 }
 
 .background {
@@ -55,6 +59,7 @@
     z-index: -2;
 }
 
+/* Index */
 .anniversary {
 	display: block;
 	position: relative;
@@ -95,4 +100,80 @@
 	top: -170px;
 	left: 620px;
 	width: 17%;
+}
+
+/*Pac-Man & Friends */
+
+.AboutPacman {
+	position: relative;
+	top: -139px;
+	height: 100vh;
+	background-image: url("image/homebaggrund.png");
+	background-size: cover;
+	z-index: -1
+	
+}
+
+.Pac-Man img {
+	position: relative;
+	top: 70px;
+	left: 100px;
+	width: 40%;
+}
+
+.PacmanStory {
+	
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 800px;
+	top: 60px;
+
+	background: #FE8D00;
+	border: 6px solid #000000;
+	box-shadow: 11px 10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+
+}
+
+.PacmanHeader {
+	/* Pac-Man */
+
+	position: absolute;
+	width: 471px;
+	height: 92px;
+	left: 20px;
+	top: -50px;
+
+	font-family: PacMan;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 96px;
+	line-height: 115px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FED800;
+	text-shadow: 6px 5px 0px #2D0057;
+	-webkit-text-stroke: 3px black; /* Stroke width and color */
+}
+
+.PacmanStory .PacmanText {
+	position: relative;
+	top: 100px;
+	margin: 30px;
+	text-align: justify;
+	font-family: tektur;
+	font-size: 20px;
+}
+
+.ready {
+	position: relative;
+	top: 100px;
+	margin: 30px;
+	text-align: center;
+	font-family: tektur;
+	font-size: 20px;
 }
