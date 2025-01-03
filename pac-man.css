@@ -47,20 +47,24 @@
 }
 
 .background {
+	
 	position: relative;
   	top: -950px;
   	left: 0;
   	width: 100%;
   	height: 100vh;
-    background-image: url("image/homebaggrund.png");
+   
+	background-image: url("image/homebaggrund.png");
     background-repeat: repeat;
 	background-size: cover;
 	background-attachment: fixed;
-    z-index: -2;
+    
+	z-index: -2;
 }
 
 /* Index */
 .anniversary {
+	
 	display: block;
 	position: relative;
 	top: -140px;
@@ -71,10 +75,13 @@
 }
 
 .anniversary img {
-	width: 870px;
+	
+	
+width: 870px;
 }
 
 .yellowline {
+	
 	position: relative;
 	top: -145px;
 	border-top: 20px solid #FED800; 
@@ -82,13 +89,22 @@
 }
 
 .footer {
-	position: relative;
-	top: -145px;
-	border-top: 200px solid #FF0000; 
-  	width: 100%; 
+	
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 800px;
+	top: 60px;
+	
+	background: #FE8D00;
+	border: 6px solid #000000;
+	box-shadow: 11px 10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+	
 }
 
 .bandai img {
+	
 	position: relative;
 	top: -180px;
 	left: 600px;
@@ -96,6 +112,7 @@
 }
 
 .evolution img {
+	
 	position: relative;
 	top: -170px;
 	left: 620px;
@@ -105,16 +122,20 @@
 /*Pac-Man & Friends */
 
 .AboutPacman {
+	
 	position: relative;
 	top: -139px;
-	height: 100vh;
+	height:600px;
+	
 	background-image: url("image/homebaggrund.png");
 	background-size: cover;
-	z-index: -1
+	z-index: -1;
 	
+	border-bottom: 20px solid #FED800;
 }
 
 .Pac-Man img {
+	
 	position: relative;
 	top: 70px;
 	left: 100px;
@@ -137,18 +158,17 @@
 }
 
 .PacmanHeader {
-	/* Pac-Man */
 
 	position: absolute;
-	width: 471px;
+	width: 470px;
 	height: 92px;
-	left: 20px;
-	top: -50px;
+	left: 80px;
+	top: -40px;
 
 	font-family: PacMan;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 96px;
+	font-size: 71px;
 	line-height: 115px;
 	display: flex;
 	align-items: center;
@@ -161,6 +181,7 @@
 }
 
 .PacmanStory .PacmanText {
+	
 	position: relative;
 	top: 100px;
 	margin: 30px;
@@ -170,6 +191,7 @@
 }
 
 .ready {
+	
 	position: relative;
 	top: 100px;
 	margin: 30px;
@@ -177,3 +199,345 @@
 	font-family: tektur;
 	font-size: 20px;
 }
+
+.AboutMsPacman {
+	
+	position: relative;
+	top:-139px;
+	height: 750px;
+	
+	background-image: url("image/homebaggrund.png");
+	background-size: cover;
+	
+	z-index: -1;
+	
+	border-bottom: 20px solid #FED800;
+}
+
+.MsPac-Man img {
+	position: relative;
+	top: 50px;
+	left: 730px;
+	width: 40%;
+}
+
+.MsPacmanStory {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 100px;
+	top: 60px;
+
+	background: #FE8D00;
+	border: 6px solid #000000;
+	box-shadow: 11px 10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+}
+
+.MsPacManHeader {
+	position: absolute;
+	width: 470px;
+	height: 92px;
+	left: 10px;
+	top: -40px;
+
+	font-family: PacMan;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 71px;
+	line-height: 115px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FED800;
+	text-shadow: 6px 5px 0px #2D0057;
+	-webkit-text-stroke: 3px black; /* Stroke width and color */
+}
+
+.MsPacmanText {
+	position: relative;
+	top: 100px;
+	margin: 30px;
+	text-align: justify;
+	font-family: tektur;
+	font-size: 20px;
+}
+
+.AboutBlinky {
+	position: relative;
+	top:-139px;
+	height: 750px;
+	
+	background-image: url("image/homebaggrund.png");
+	background-size: cover;
+	
+	z-index: -1;
+	
+	border-bottom: 20px solid #FED800;
+}
+
+.Blinky img{
+	position: relative;
+	top: 50px;
+	left: 100px;
+	width: 40%;
+}
+
+.BlinkyStory {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 800px;
+	top: 60px;
+
+	background: #FE8D00;
+	border: 6px solid #000000;
+	box-shadow: 11px 10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+}
+
+.BlinkyHeader {
+	position: absolute;
+	width: 470px;
+	height: 92px;
+	left: 120px;
+	top: -40px;
+
+	font-family: PacMan;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 71px;
+	line-height: 115px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FED800;
+	text-shadow: 6px 5px 0px #2D0057;
+	-webkit-text-stroke: 3px black; /* Stroke width and color */
+}
+
+.BlinkyText {
+	position: relative;
+	top: 100px;
+	margin: 30px;
+	text-align: justify;
+	font-family: tektur;
+	font-size: 20px;
+}
+
+.AboutPinky {
+	position: relative;
+	top:-139px;
+	height: 750px;
+	
+	background-image: url("image/homebaggrund.png");
+	background-size: cover;
+	
+	z-index: -1;
+	
+	border-bottom: 20px solid #FED800;
+}
+
+.Pinky img {
+	position: relative;
+	top: 50px;
+	left: 800px;
+	width: 40%;
+}
+
+.PinkyStory {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 100px;
+	top: 60px;
+
+	background: #FE8D00;
+	border: 6px solid #000000;
+	box-shadow: 11px 10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+}
+
+.PinkyHeader {
+	position: absolute;
+	width: 470px;
+	height: 92px;
+	left: 120px;
+	top: -40px;
+
+	font-family: PacMan;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 71px;
+	line-height: 115px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FED800;
+	text-shadow: 6px 5px 0px #2D0057;
+	-webkit-text-stroke: 3px black; /* Stroke width and color */
+}
+
+.PinkyText {
+	position: relative;
+	top: 100px;
+	margin: 30px;
+	text-align: justify;
+	font-family: tektur;
+	font-size: 20px;
+}
+
+.AboutInky {
+	position: relative;
+	top:-139px;
+	height: 750px;
+	
+	background-image: url("image/homebaggrund.png");
+	background-size: cover;
+	
+	z-index: -1;
+	
+	border-bottom: 20px solid #FED800;
+}
+
+.Inky img {
+	position: relative;
+	top: 50px;
+	left: 100px;
+	width: 40%;
+}
+
+.InkyStory {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 800px;
+	top: 60px;
+
+	background: #FE8D00;
+	border: 6px solid #000000;
+	box-shadow: 11px 10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+}
+
+.InkyHeader {
+	position: absolute;
+	width: 470px;
+	height: 92px;
+	left: 120px;
+	top: -40px;
+
+	font-family: PacMan;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 71px;
+	line-height: 115px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FED800;
+	text-shadow: 6px 5px 0px #2D0057;
+	-webkit-text-stroke: 3px black; /* Stroke width and color */
+}
+
+.InkyText {
+	position: relative;
+	top: 100px;
+	margin: 30px;
+	text-align: justify;
+	font-family: tektur;
+	font-size: 20px;
+}
+
+.AboutClyde {
+	position: relative;
+	top:-139px;
+	height: 750px;
+	
+	background-image: url("image/homebaggrund.png");
+	background-size: cover;
+	
+	z-index: -1;
+	
+	border-bottom: 20px solid #FED800;
+}
+
+.Clyde img{
+	position: relative;
+	top: 50px;
+	left: 800px;
+	width: 40%;
+}
+
+.ClydeStory {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 100px;
+	top: 60px;
+
+	background: #FE8D00;
+	border: 6px solid #000000;
+	box-shadow: 11px 10px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 50px;
+}
+
+.ClydeHeader {
+	position: absolute;
+	width: 470px;
+	height: 92px;
+	left: 120px;
+	top: -40px;
+
+	font-family: PacMan;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 71px;
+	line-height: 115px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FED800;
+	text-shadow: 6px 5px 0px #2D0057;
+	-webkit-text-stroke: 3px black; /* Stroke width and color */
+}
+
+.ClydeText {
+	position: relative;
+	top: 100px;
+	margin: 30px;
+	text-align: justify;
+	font-family: tektur;
+	font-size: 20px;
+}
+
+.back-to-top {
+  	position: fixed;
+  	bottom: 20px;
+  	right: 20px;
+  	background-color: #ffcc00; 
+  	color: white;
+  	padding: 10px 20px;
+  	border-radius: 5px;
+  	font-size: 16px;
+	font-family: Tektur;
+  	text-decoration: none;
+  	display: none;
+  	transition: opacity 0.3s;
+}
+
+.back-to-top:hover {
+	background-color: #ff9900; /* Hover effect */
+}
+
+
