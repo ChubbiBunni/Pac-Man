@@ -46,38 +46,22 @@
 	overflow: hidden; /* fjerner scroll-funktion */
 }
 
-.background {
-	
-	position: relative;
-  	top: -950px;
-  	left: 0;
-  	width: 100%;
-  	height: 100vh;
-   
-	background-image: url("image/homebaggrund.png");
-    background-repeat: repeat;
-	background-size: cover;
-	background-attachment: fixed;
-    
-	z-index: -2;
-}
-
 /* Index */
 .anniversary {
-	
-	display: block;
 	position: relative;
-	top: -140px;
-	left: 350px;
-	margin: 0;
-	padding: 0;
+	top: -136px;
+	height:447px;
+	
+	background-image: url("image/homebaggrund.png");
+	background-size: cover;
 	z-index: -1;
 }
 
-.anniversary img {
-	
-	
-width: 870px;
+.anniversaryimg img {
+	position: relative;
+	width: 870px;
+	left: 330px;
+	z-index: -1;
 }
 
 .yellowline {
@@ -91,22 +75,18 @@ width: 870px;
 .footer {
 	
 	position: absolute;
-	width: 500px;
-	height: 500px;
-	left: 800px;
-	top: 60px;
+	width: 100%;
+	height: 180px;
+	top: 597px;
 	
-	background: #FE8D00;
-	border: 6px solid #000000;
-	box-shadow: 11px 10px 0px rgba(0, 0, 0, 0.25);
-	border-radius: 50px;
+	background: #FF0000;
 	
 }
 
 .bandai img {
 	
 	position: relative;
-	top: -180px;
+	top: 20px;
 	left: 600px;
 	width: 20%;
 }
@@ -114,12 +94,15 @@ width: 870px;
 .evolution img {
 	
 	position: relative;
-	top: -170px;
+	top: 30px;
 	left: 620px;
 	width: 17%;
 }
 
 /*Pac-Man & Friends */
+.About {
+	max-height: 100vh;
+}
 
 .AboutPacman {
 	
@@ -540,4 +523,30 @@ width: 870px;
 	background-color: #ff9900; /* Hover effect */
 }
 
+.Aboutfooter {
+	
+	position: relative;
+	width: 100%;
+	height: 180px;
+	top: -139px;
+	
+	background: #FF0000;
+	
+}
+
+.Aboutbandai img {
+	
+	position: relative;
+	top: 20px;
+	left: 600px;
+	width: 20%;
+}
+
+.Aboutevolution img {
+	
+	position: relative;
+	top: 30px;
+	left: 620px;
+	width: 17%;
+}
 
