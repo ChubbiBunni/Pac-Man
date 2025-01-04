@@ -550,3 +550,72 @@
 	width: 17%;
 }
 
+.PlayPacman {
+	position: relative;
+	top: -139px;
+	height:800px;
+	
+	background-color: black;
+	background-size: cover;
+	z-index: -1;
+	
+	border-bottom: 20px solid #FED800;
+}
+
+.PlayPicture {
+	position: relative;
+	top: 10px;
+	left: 400px;
+}
+
+.PlayButton {
+	 position: relative;
+	width: 180px;
+	height: 50px;
+	top: -600px;
+	left: 620px;
+	
+	background: black;
+	border-style: double;
+	border-color: #1818B5;
+	border-radius: 7px;
+	border-width: 13px;
+	box-shadow: 0 0 20px #4C4CFF, 0 0 40px #4C4CFF, 0 0 60px #4C4CFF;
+}
+
+.PlayButton a:link {
+  	position: relative;
+	font-family: Pacman;
+	font-size: 30px;
+	color: yellow;
+	text-align: center;
+	top: 10px;
+	left: 10px;
+	text-decoration: none;
+}
+
+.PlayButton a:visited {
+  	position: relative;
+	font-family: Pacman;
+	font-size: 30px;
+	color: yellow;
+	text-align: center;
+	top: 10px;
+	left: 10px;
+	text-decoration: none;
+}
+
+.PlayButton a:hover {
+	text-shadow: 0 0 10px #FFA500, 0 0 20px #FF8C00, 0 0 30px #FF4500;
+}
+
+.play {
+	height: 100px;
+}
+
+
+
+
+
+
+
