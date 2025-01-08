@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 @font-face {
 	font-family: PacMan;
 	src: url("Font/crackman.front-regular.otf");
@@ -29,29 +29,29 @@
 	list-style-type: none;
 	position: relative;
 	width: 100%;
-	left: 30%;
+	left: 28%;
 	top: -75px;
 	overflow: visible;
 }
 
 .menu li {
-	margin-right: 7px;
+	margin-right: 80px;
 	
 }
 
 .menu img {
-	width: 100%;
-  	max-width: 150px;
+	width: 120%;
+  	max-width: 250px;
 	height: 100px;
 	object-fit: contain;
 }
 .play-container {
     position: relative;
     display: inline-flex;
-    width: 10vw; /* Scale with viewport */
-    height: 5vw; /* Scale with viewport */
-    min-width: 50px; /* Set a minimum width */
-    min-height: 50px; /* Set a minimum height */
+    width: 10vw; 
+    height: 5vw; 
+    min-width: 50px; 
+    min-height: 50px; 
 }
 
 .default-play {
@@ -69,25 +69,25 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0; /* Hide hover image by default */
+    opacity: 0; 
     transition: opacity 0.3s ease;
 }
 
 .play-container:hover .default-play {
-    opacity: 0; /* Hide default image */
+    opacity: 0; 
 }
 
 .play-container:hover .hover-play {
-    opacity: 1; /* Show hover image */
+    opacity: 1; 
 }
 
 .about-container {
     position: relative;
     display: inline-block;
-    width: 10vw; /* Scale with viewport */
-    height: 5vw; /* Scale with viewport */
-    min-width: 50px; /* Set a minimum width */
-    min-height: 50px; /* Set a minimum height */
+    width: 10vw;
+    height: 5vw; 
+    min-width: 50px; 
+    min-height: 50px; 
 }
 
 .default-about {
@@ -105,25 +105,25 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0; /* Hide hover image by default */
+    opacity: 0; 
     transition: opacity 0.3s ease;
 }
 
 .about-container:hover .default-about {
-    opacity: 0; /* Hide default image */
+    opacity: 0; 
 }
 
 .about-container:hover .hover-about {
-    opacity: 1; /* Show hover image */
+    opacity: 1; 
 }
 
 .home-container {
     position: relative;
     display: inline-block;
-    width: 10vw; /* Scale with viewport */
-    height: 5vw; /* Scale with viewport */
-    min-width: 50px; /* Set a minimum width */
-    min-height: 50px; /* Set a minimum height */
+    width: 10vw; 
+    height: 5vw; 
+    min-width: 50px; 
+    min-height: 50px; 
 }
 
 .default-home {
@@ -141,20 +141,20 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0; /* Hide hover image by default */
+    opacity: 0; 
     transition: opacity 0.3s ease;
 }
 
 .home-container:hover .default-home {
-    opacity: 0; /* Hide default image */
+    opacity: 0; 
 }
 
 .home-container:hover .hover-home {
-    opacity: 1; /* Show hover image */
+    opacity: 1; 
 }
 
 .index {
-	overflow: ; /* fjerner scroll-funktion */
+	overflow: hidden; /* fjerner scroll-funktion */
 }
 
 /* Index */
@@ -185,7 +185,6 @@
 }
 
 .bandai img {
-	
 	position: relative;
 	top: 20px;
 	left: 40%;
@@ -203,55 +202,107 @@
 /*If the screen size is 600px or less*/
 
 @media (max-width: 480px){
+	.index {
+		overflow-y: scroll;
+	}
+	
 	.menubar {
+		background-size: 90%;
+		height: 100px;
 		border-bottom-width: 10px;
 	}
 	
 	.logo img {
-		width: 30%;
+		width: 60%;
 	}
 	
 	.menu {
-		left: 1%;
-		top: -70px;
+		left: -3%;
 	}
 	
 	.menu li {
-		margin-right: 30px;
+		margin-right: 20%;
 	}
 	
 	.menu img {
-		width: 130%;
+		width: 230%;
+	}
+	
+	.anniversary img {
+		width: 440px;
+		left: 0;
 	}
 	
 	.footer {
-		height: 80px;
+		height: 200px;
+	}
+	
+	.bandai img {
+		top: 30px;
+		width: 70%;
+		left: 16%;
+	}
+	
+	.evolution img {
+		left: 17%;
+		width: 70%;
 	}
 }
 
-@media (min-width:480px) and (max-width: 600px){
+@media (min-width:481px) and (max-width: 600px){
+	.index {
+		overflow-y: scroll;
+	}
+	
 	.menubar {
 		border-bottom-width: 15px;
+		height: 100px;
 	}
 	
 	.logo img {
-		width: 30%;
+		width: 50%;
 	}
 	
 	.menu {
-		left: 14%;
+		left: 7%;
 	}
 	
 	.menu li {
-		margin-right: 50px;
+		margin-right: 15%;
 	}
 	
 	.menu img {
-		width: 160%;
+		width: 220%;
+	}
+	
+	.anniversary {
+		background-size: cover;
+		height: 320px;
+	}
+	
+	.anniversary img {
+		top: 20px;
+		width: 100%;
+		left: 0px;
+	}
+	
+	.PlayPicture img {
+		top: 
 	}
 	
 	.footer {
-		height: 120px;
+		height: 220px;
+		top:-136px;
+	}
+	
+	.bandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.evolution img {
+		left: 15%;
+		width: 70%;
 	}
 }
 
@@ -266,7 +317,7 @@
 	
 	position: relative;
 	top: -139px;
-	height:600px;
+	height:800px;
 	
 	background-image: url("image/homebaggrund.png");
 	background-size: cover;
@@ -279,7 +330,7 @@
 	
 	position: relative;
 	top: 70px;
-	left: 100px;
+	left: 10%;
 	width: 40%;
 }
 
@@ -288,8 +339,8 @@
 	position: absolute;
 	width: 500px;
 	height: 500px;
-	left: 800px;
-	top: 60px;
+	left: 60%;
+	top: 20%;
 
 	background: #FE8D00;
 	border: 6px solid #000000;
@@ -362,7 +413,7 @@
 	
 	position: relative;
 	top:-139px;
-	height: 750px;
+	height: 950px;
 	
 	background-image: url("image/homebaggrund.png");
 	background-size: cover;
@@ -375,7 +426,7 @@
 .MsPac-Man img {
 	position: relative;
 	top: 50px;
-	left: 730px;
+	left: 50%;
 	width: 40%;
 }
 
@@ -383,8 +434,8 @@
 	position: absolute;
 	width: 500px;
 	height: 500px;
-	left: 100px;
-	top: 60px;
+	left: 20%;
+	top: 20%;
 
 	background: #FE8D00;
 	border: 6px solid #000000;
@@ -427,7 +478,7 @@
 .AboutBlinky {
 	position: relative;
 	top:-139px;
-	height: 750px;
+	height: 850px;
 	
 	background-image: url("image/homebaggrund.png");
 	background-size: cover;
@@ -439,8 +490,8 @@
 
 .Blinky img{
 	position: relative;
-	top: 50px;
-	left: 100px;
+	top: 70px;
+	left: 10%;
 	width: 40%;
 }
 
@@ -448,8 +499,8 @@
 	position: absolute;
 	width: 500px;
 	height: 500px;
-	left: 800px;
-	top: 60px;
+	left: 60%;
+	top: 20%;
 
 	background: #FE8D00;
 	border: 6px solid #000000;
@@ -492,7 +543,7 @@
 .AboutPinky {
 	position: relative;
 	top:-139px;
-	height: 750px;
+	height: 850px;
 	
 	background-image: url("image/homebaggrund.png");
 	background-size: cover;
@@ -505,7 +556,7 @@
 .Pinky img {
 	position: relative;
 	top: 50px;
-	left: 800px;
+	left: 50%;
 	width: 40%;
 }
 
@@ -513,8 +564,8 @@
 	position: absolute;
 	width: 500px;
 	height: 500px;
-	left: 100px;
-	top: 60px;
+	left: 20%;
+	top: 20%;
 
 	background: #FE8D00;
 	border: 6px solid #000000;
@@ -557,7 +608,7 @@
 .AboutInky {
 	position: relative;
 	top:-139px;
-	height: 750px;
+	height: 850px;
 	
 	background-image: url("image/homebaggrund.png");
 	background-size: cover;
@@ -570,7 +621,7 @@
 .Inky img {
 	position: relative;
 	top: 50px;
-	left: 100px;
+	left: 10%;
 	width: 40%;
 }
 
@@ -578,8 +629,8 @@
 	position: absolute;
 	width: 500px;
 	height: 500px;
-	left: 800px;
-	top: 60px;
+	left: 60%;
+	top: 20%;
 
 	background: #FE8D00;
 	border: 6px solid #000000;
@@ -622,7 +673,7 @@
 .AboutClyde {
 	position: relative;
 	top:-139px;
-	height: 750px;
+	height: 850px;
 	
 	background-image: url("image/homebaggrund.png");
 	background-size: cover;
@@ -635,7 +686,7 @@
 .Clyde img{
 	position: relative;
 	top: 50px;
-	left: 800px;
+	left: 50%;
 	width: 40%;
 }
 
@@ -643,8 +694,8 @@
 	position: absolute;
 	width: 500px;
 	height: 500px;
-	left: 100px;
-	top: 60px;
+	left: 20%;
+	top: 20%;
 
 	background: #FE8D00;
 	border: 6px solid #000000;
@@ -708,8 +759,8 @@
 	
 	position: relative;
 	width: 100%;
-	height: 180px;
-	top: -139px;
+	height: 240px;
+	top: -140%;
 	
 	background: #FF0000;
 	
@@ -719,7 +770,7 @@
 	
 	position: relative;
 	top: 20px;
-	left: 600px;
+	left: 42%;
 	width: 20%;
 }
 
@@ -727,15 +778,19 @@
 	
 	position: relative;
 	top: 30px;
-	left: 620px;
+	left: 44%;
 	width: 17%;
 }
 
 /*Play Pac-Man*/
+.play {
+	overflow-x: hidden;
+}
+
 .PlayPacman {
 	position: relative;
 	top: -139px;
-	height:800px;
+	height:1100px;
 	
 	background-color: black;
 	background-size: cover;
@@ -744,24 +799,26 @@
 	border-bottom: 20px solid #FED800;
 }
 
-.PlayPicture {
+.PlayPicture img {
 	position: relative;
-	top: 10px;
-	left: 400px;
+	width: 40%;
+	top: 5%;
+	left: 32%;
 }
 
 .PlayButton {
-	 position: relative;
-	width: 180px;
-	height: 50px;
-	top: -600px;
-	left: 620px;
+	position: absolute;
+	width: 15%;
+	height: 60px;
+	top: 120px;
+	left: 44%;
+	
+	text-align: center;
 	
 	background: black;
 	border-style: double;
 	border-color: #1818B5;
-	border-radius: 7px;
-	border-width: 13px;
+	border-width: 10px;
 	box-shadow: 0 0 20px #4C4CFF, 0 0 40px #4C4CFF, 0 0 60px #4C4CFF;
 }
 
