@@ -52,7 +52,11 @@
 	<!-- anniversary -->
 	<div class="anniversary">
 		<div class="anniversaryimg">
-			<img src="image/Anniversary photo.png" alt="Anniversary Photo">
+			<picture>
+				<source srcset="image/Anniversary photo.png" media="(min-width: 601px)">
+				<source srcset="image/Picture1.png" media="(max-width:600px)">
+				<img src="image/Anniversary photo.png" alt="Anniversary Photo">
+			</picture>
 		</div>
 	</div>
 	
