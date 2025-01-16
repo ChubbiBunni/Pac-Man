@@ -644,6 +644,7 @@
   	text-decoration: none;
   	display: none;
   	transition: opacity 0.3s;
+	z-index: 1;
 }
 
 .back-to-top:hover {
@@ -1207,8 +1208,8 @@
 	}
 }
 
-@media (min-width:601px) and (max-width: 768px) {
-		
+@media (min-width:600px) and (max-width: 700px) {
+	
 	html, body {
 		height: 100%;
 	}
@@ -1279,7 +1280,7 @@
 	}
 	
 	.PacmanStory {
-		left: 8%;
+		left: 15%;
 		top: 6%;
 		width: 450px;
 		z-index: -1;
@@ -1315,7 +1316,7 @@
 	
 	.MsPacmanStory {
 		top:6%;
-		left: 8%;
+		left: 15%;
 		width: 450px;
 		z-index: -1;
 	}
@@ -1331,8 +1332,8 @@
 	}
 	
 	.BlinkyStory {
-		top:6%;
-		left: 8%;
+		top: 6%;
+		left: 15%;
 		width: 450px;
 		z-index: -1;
 	}
@@ -1354,7 +1355,7 @@
 	
 	.PinkyStory {
 		top:6%;
-		left: 8%;
+		left: 15%;
 		width: 450px;
 		z-index: -1;
 	}
@@ -1375,7 +1376,7 @@
 	
 	.InkyStory {
 		top:6%;
-		left: 8%;
+		left: 15%;
 		width: 450px;
 		height: 400px;
 		z-index: -1;
@@ -1402,7 +1403,7 @@
 	
 	.ClydeStory {
 		top:6%;
-		left: 8%;
+		left: 15%;
 		width: 450px;
 		height: 450px;
 		z-index: -1;
@@ -1432,7 +1433,257 @@
 	/*Play Pac-Man Media*/
 	
 	.PlayPacman {
-		height: 500px;
+		height: 600px;
+	}
+	
+	.PlayPicture img {
+		width: 80%;
+		left: 13%;
+	}
+	
+	.PlayButton {
+		width: 30%;
+		left: 37%;
+		height: 40px;
+	}
+	
+	.PlayButton a:link {
+		font-size: 25px;
+		left: 1%;
+		top: 1px;
+	}
+}
+
+@media (min-width:700px) and (max-width: 800px) {
+	
+	html, body {
+		height: 100%;
+	}
+	.index {
+		overflow-y: scroll;
+	}
+	
+	.menubar {
+		border-bottom-width: 15px;
+		height: 100px;
+	}
+	
+	.logo img {
+		width: 40%;
+	}
+	
+	.menu {
+		left: 7%;
+	}
+	
+	.menu li {
+		margin-right: 15%;
+	}
+	
+	.menu img {
+		width: 200%;
+	}
+	
+	/*Forside*/
+	.anniversary {
+		background-size: cover;
+		height: 660px;
+		border-bottom: 3vw solid #FED800 ;
+	}
+	
+	.anniversary img {
+		top: 20px;
+		width: 100%;
+		left: 0px;
+	}
+	
+	/*Footer*/
+	.footer {
+		height: 370px;
+		top:-136px;
+	}
+	
+	.bandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.evolution img {
+		left: 15%;
+		width: 70%;
+	}
+	
+	/*Pac-Man & Friends*/
+	
+	.AboutPacman {
+		height: 930px;
+	}
+	
+	.Pac-Man img {
+		top: 530px;
+		left: 1%;
+		width: 60%;
+	}
+	
+	.PacmanStory {
+		left: 15%;
+		top: 6%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.PacmanHeader {
+		left: 65px;
+		font-size: 64px;
+	}
+	
+	.PacmanStory .PacmanText {
+		top: 80px;
+	}
+	
+	.ready {
+		top: 80px;
+	}
+	
+	.PlayNow {
+		left:90px;
+		top: 60px;
+	}
+	
+	.AboutMsPacman {
+		height: 950px;
+	}
+	
+	.MsPac-Man img {
+		top: 470px;
+		left: 30%;
+		width: 60%;
+	}
+	
+	.MsPacmanStory {
+		top:6%;
+		left: 15%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.MsPacManHeader {
+		font-size: 64px;
+	}
+	
+	.AboutBlinky {
+		height: 950px;
+	}
+	
+	.Blinky img {
+		top: 470px;
+		width: 60%;
+		left: 1%;
+	}
+	
+	.BlinkyStory {
+		top: 6%;
+		left: 15%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.BlinkyHeader {
+		font-size: 64px;
+		left: 24%;
+	}
+	
+	.AboutPinky {
+		height: 950px;
+	}
+	
+	.Pinky img {
+		top: 500px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.PinkyStory {
+		top:6%;
+		left: 15%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.PinkyHeader {
+		font-size: 64px;
+	}
+	
+	.AboutInky {
+		height: 850px;
+	}
+	
+	.Inky img {
+		top: 400px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.InkyStory {
+		top:6%;
+		left: 15%;
+		width: 450px;
+		height: 400px;
+		z-index: -1;
+	}
+	
+	.InkyHeader {
+		font-size: 64px;
+		left: 140px;
+	}
+	
+	.InkyText {
+		top: 50px;
+	}
+	
+	.AboutClyde {
+		height: 900px;
+	}
+	
+	.Clyde img {
+		top: 450px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.ClydeStory {
+		top:6%;
+		left: 15%;
+		width: 450px;
+		height: 450px;
+		z-index: -1;
+	}
+	
+	.ClydeHeader {
+		font-size: 64px;
+		left: 120px;
+	}
+	
+	/*AboutFooter*/
+	.Aboutfooter {
+		height: 350px;
+		top:-140px;
+	}
+	
+	.Aboutbandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.Aboutevolution img {
+		left: 15%;
+		width: 70%;
+	}
+	
+	/*Play Pac-Man Media*/
+	
+	.PlayPacman {
+		height: 750px;
 	}
 	
 	.PlayPicture img {
@@ -1453,7 +1704,506 @@
 	}
 }
 
+@media (min-width:800px) and (max-width: 900px) {
+	
+	html, body {
+		height: 100%;
+	}
+	.index {
+		overflow-y: scroll;
+	}
+	
+	.menubar {
+		border-bottom-width: 15px;
+		height: 100px;
+	}
+	
+	.logo img {
+		width: 30%;
+	}
+	
+	.menu {
+		left: 7%;
+	}
+	
+	.menu li {
+		margin-right: 15%;
+	}
+	
+	.menu img {
+		width: 170%;
+	}
+	
+	/*Forside*/
+	.anniversary {
+		background-size: cover;
+		height: 660px;
+		border-bottom: 3vw solid #FED800 ;
+	}
+	
+	.anniversary img {
+		top: 20px;
+		width: 100%;
+		left: 0px;
+	}
+	
+	/*Footer*/
+	.footer {
+		height: 200px;
+		top:-136px;
+	}
+	
+	.bandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.evolution img {
+		left: 15%;
+		width: 70%;
+	}
+	
+	/*Pac-Man & Friends*/
+	
+	.AboutPacman {
+		height: 1000px;
+	}
+	
+	.Pac-Man img {
+		top: 530px;
+		left: 1%;
+		width: 60%;
+	}
+	
+	.PacmanStory {
+		left: 25%;
+		top: 6%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.PacmanHeader {
+		left: 65px;
+		font-size: 64px;
+	}
+	
+	.PacmanStory .PacmanText {
+		top: 80px;
+	}
+	
+	.ready {
+		top: 80px;
+	}
+	
+	.PlayNow {
+		left:90px;
+		top: 60px;
+	}
+	
+	.AboutMsPacman {
+		height: 1000px;
+	}
+	
+	.MsPac-Man img {
+		top: 470px;
+		left: 30%;
+		width: 60%;
+	}
+	
+	.MsPacmanStory {
+		top:6%;
+		left: 25%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.MsPacManHeader {
+		font-size: 64px;
+	}
+	
+	.AboutBlinky {
+		height: 1000px;
+	}
+	
+	.Blinky img {
+		top: 470px;
+		width: 60%;
+		left: 1%;
+	}
+	
+	.BlinkyStory {
+		top: 6%;
+		left: 25%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.BlinkyHeader {
+		font-size: 64px;
+		left: 24%;
+	}
+	
+	.AboutPinky {
+		height: 1000px;
+	}
+	
+	.Pinky img {
+		top: 500px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.PinkyStory {
+		top:6%;
+		left: 25%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.PinkyHeader {
+		font-size: 64px;
+	}
+	
+	.AboutInky {
+		height: 950px;
+	}
+	
+	.Inky img {
+		top: 400px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.InkyStory {
+		top:6%;
+		left: 25%;
+		width: 450px;
+		height: 400px;
+		z-index: -1;
+	}
+	
+	.InkyHeader {
+		font-size: 64px;
+		left: 140px;
+	}
+	
+	.InkyText {
+		top: 50px;
+	}
+	
+	.AboutClyde {
+		height: 1000px;
+	}
+	
+	.Clyde img {
+		top: 450px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.ClydeStory {
+		top:6%;
+		left: 25%;
+		width: 450px;
+		height: 450px;
+		z-index: -1;
+	}
+	
+	.ClydeHeader {
+		font-size: 64px;
+		left: 120px;
+	}
+	
+	/*AboutFooter*/
+	.Aboutfooter {
+		height: 350px;
+		top:-140px;
+	}
+	
+	.Aboutbandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.Aboutevolution img {
+		left: 15%;
+		width: 70%;
+	}
+	
+	/*Play Pac-Man Media*/
+	
+	.PlayPacman {
+		height: 800px;
+	}
+	
+	.PlayPicture img {
+		width: 80%;
+		left: 10%;
+	}
+	
+	.PlayButton {
+		width: 30%;
+		left: 35%;
+		height: 40px;
+	}
+	
+	.PlayButton a:link {
+		font-size: 25px;
+		left: 1%;
+		top: 1px;
+	}
+}
 
-
-
+@media (min-width:900px) and (max-width: 1200px) {
+	
+	html, body {
+		height: 100%;
+	}
+	.index {
+		overflow-y: scroll;
+	}
+	
+	.menubar {
+		border-bottom-width: 15px;
+		height: 120px;
+	}
+	
+	.logo img {
+		width: 30%;
+	}
+	
+	.menu {
+		left: 10%;
+	}
+	
+	.menu li {
+		margin-right: 15%;
+	}
+	
+	.menu img {
+		width: 170%;
+	}
+	
+	/*Forside*/
+	.anniversary {
+		background-size: cover;
+		height: 660px;
+		border-bottom: 3vw solid #FED800 ;
+	}
+	
+	.anniversary img {
+		top: 20px;
+		width: 100%;
+		left: 0px;
+	}
+	
+	/*Footer*/
+	.footer {
+		height: 200px;
+		top:-136px;
+	}
+	
+	.bandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.evolution img {
+		left: 15%;
+		width: 70%;
+	}
+	
+	/*Pac-Man & Friends*/
+	
+	.AboutPacman {
+		height: 1150px;
+	}
+	
+	.Pac-Man img {
+		top: 530px;
+		left: 1%;
+		width: 60%;
+	}
+	
+	.PacmanStory {
+		left: 25%;
+		top: 6%;
+		width: 550px;
+		z-index: -1;
+	}
+	
+	.PacmanHeader {
+		left: 120px;
+		font-size: 64px;
+	}
+	
+	.PacmanStory .PacmanText {
+		top: 80px;
+	}
+	
+	.ready {
+		top: 80px;
+	}
+	
+	.PlayNow {
+		left:135px;
+		top: 60px;
+	}
+	
+	.AboutMsPacman {
+		height: 1250px;
+	}
+	
+	.MsPac-Man img {
+		top: 470px;
+		left: 30%;
+		width: 60%;
+	}
+	
+	.MsPacmanStory {
+		top:6%;
+		left: 25%;
+		width: 550px;
+		z-index: -1;
+	}
+	
+	.MsPacManHeader {
+		font-size: 64px;
+		left: 10%;
+	}
+	
+	.AboutBlinky {
+		height: 1150px;
+	}
+	
+	.Blinky img {
+		top: 470px;
+		width: 60%;
+		left: 1%;
+	}
+	
+	.BlinkyStory {
+		top: 6%;
+		left: 25%;
+		width: 550px;
+		z-index: -1;
+	}
+	
+	.BlinkyHeader {
+		font-size: 64px;
+		left: 25%;
+	}
+	
+	.AboutPinky {
+		height: 1200px;
+	}
+	
+	.Pinky img {
+		top: 500px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.PinkyStory {
+		top:6%;
+		left: 25%;
+		width: 550px;
+		z-index: -1;
+	}
+	
+	.PinkyHeader {
+		font-size: 64px;
+		left: 170px;
+	}
+	
+	.AboutInky {
+		height: 1100px;
+	}
+	
+	.Inky img {
+		top: 400px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.InkyStory {
+		top:6%;
+		left: 25%;
+		width: 550px;
+		height: 400px;
+		z-index: -1;
+	}
+	
+	.InkyHeader {
+		font-size: 64px;
+		left: 190px;
+	}
+	
+	.InkyText {
+		top: 50px;
+	}
+	
+	.AboutClyde {
+		height: 1150px;
+	}
+	
+	.Clyde img {
+		top: 450px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.ClydeStory {
+		top:6%;
+		left: 25%;
+		width: 550px;
+		height: 450px;
+		z-index: -1;
+	}
+	
+	.ClydeHeader {
+		font-size: 64px;
+		left: 150px;
+	}
+	
+	/*AboutFooter*/
+	.Aboutfooter {
+		height: 450px;
+		top:-140px;
+	}
+	
+	.Aboutbandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.Aboutevolution img {
+		left: 15%;
+		width: 70%;
+	}
+	
+	/*Play Pac-Man Media*/
+	
+	.PlayPacman {
+		height: 1050px;
+	}
+	
+	.PlayPicture img {
+		width: 80%;
+		left: 10%;
+	}
+	
+	.PlayButton {
+		width: 30%;
+		left: 35%;
+		height: 45px;
+		top: 140px;
+	}
+	
+	.PlayButton a:link {
+		font-size: 35px;
+		left: 1%;
+		top: 1px;
+	}
+}
 
