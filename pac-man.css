@@ -1007,7 +1007,7 @@
 	
 	/*Footer*/
 	.footer {
-		height: 220px;
+		height: 250px;
 		top:-136px;
 	}
 	
@@ -1241,7 +1241,7 @@
 	/*Forside*/
 	.anniversary {
 		background-size: cover;
-		height: 660px;
+		height: 400px;
 		border-bottom: 3vw solid #FED800 ;
 	}
 	
@@ -1253,7 +1253,7 @@
 	
 	/*Footer*/
 	.footer {
-		height: 220px;
+		height: 320px;
 		top:-136px;
 	}
 	
@@ -1487,7 +1487,7 @@
 	/*Forside*/
 	.anniversary {
 		background-size: cover;
-		height: 660px;
+		height: 420px;
 		border-bottom: 3vw solid #FED800 ;
 	}
 	
@@ -1737,7 +1737,7 @@
 	/*Forside*/
 	.anniversary {
 		background-size: cover;
-		height: 660px;
+		height: 460px;
 		border-bottom: 3vw solid #FED800 ;
 	}
 	
@@ -1749,7 +1749,7 @@
 	
 	/*Footer*/
 	.footer {
-		height: 200px;
+		height: 370px;
 		top:-136px;
 	}
 	
@@ -1999,7 +1999,7 @@
 	
 	/*Footer*/
 	.footer {
-		height: 200px;
+		height: 500px;
 		top:-136px;
 	}
 	
