@@ -48,7 +48,7 @@
 .play-container {
     position: relative;
     display: inline-flex;
-    width: 10vw; 
+    width: 10vw; /*vw = Viewport Width, 10% af browservinduets bredde*/
     height: 5vw; 
     min-width: 50px; 
     min-height: 50px; 
@@ -199,125 +199,10 @@
 	width: 17%;
 }
 
-/*If the screen size is 600px or less*/
-
-@media (max-width: 480px){
-	.index {
-		overflow-y: scroll;
-	}
-	
-	.menubar {
-		background-size: 90%;
-		height: 100px;
-		border-bottom-width: 10px;
-	}
-	
-	.logo img {
-		width: 60%;
-	}
-	
-	.menu {
-		left: -3%;
-	}
-	
-	.menu li {
-		margin-right: 20%;
-	}
-	
-	.menu img {
-		width: 230%;
-	}
-	
-	.anniversary img {
-		width: 440px;
-		left: 0;
-	}
-	
-	.footer {
-		height: 200px;
-	}
-	
-	.bandai img {
-		top: 30px;
-		width: 70%;
-		left: 16%;
-	}
-	
-	.evolution img {
-		left: 17%;
-		width: 70%;
-	}
-}
-
-@media (min-width:481px) and (max-width: 600px){
-	
-	html, body {
-		height: 100%;
-	}
-	.index {
-		overflow-y: scroll;
-	}
-	
-	.menubar {
-		border-bottom-width: 15px;
-		height: 100px;
-	}
-	
-	.logo img {
-		width: 50%;
-	}
-	
-	.menu {
-		left: 7%;
-	}
-	
-	.menu li {
-		margin-right: 15%;
-	}
-	
-	.menu img {
-		width: 220%;
-	}
-	
-	.anniversary {
-		background-size: cover;
-		height: 660px;
-		border-bottom: 3vw solid #FED800 ;
-	}
-	
-	.anniversary img {
-		top: 20px;
-		width: 100%;
-		left: 0px;
-	}
-	
-	
-	.footer {
-		height: 220px;
-		top:-136px;
-	}
-	
-	.bandai img{
-		left: 14%;
-		width: 70%;
-	}
-	
-	.evolution img {
-		left: 15%;
-		width: 70%;
-	}
-	
-	.Pac-Man {
-		top: 120%;
-		width: 140%;
-		left: 20%;
-	}
-}
-
-
 /*Pac-Man & Friends */
 .About {
 	max-height: 100vh;
+	overflow-x: hidden;
 }
 
 /*Pac-Man Section */
@@ -334,8 +219,11 @@
 	border-bottom: 20px solid #FED800;
 }
 
+.Pac-Man {
+	position: relative;
+}
+
 .Pac-Man img {
-	
 	position: relative;
 	top: 70px;
 	left: 10%;
@@ -345,7 +233,7 @@
 .PacmanStory {
 	
 	position: absolute;
-	width: 500px;
+	width: 30%;
 	height: 500px;
 	left: 60%;
 	top: 20%;
@@ -860,7 +748,441 @@
 	height: 100px;
 }
 
+/*If the screen size is 600px or less*/
 
+@media (max-width: 480px){
+	.index {
+		overflow-y: scroll;
+	}
+	
+	.menubar {
+		background-size: 90%;
+		height: 100px;
+		border-bottom-width: 10px;
+	}
+	
+	.logo img {
+		width: 60%;
+	}
+	
+	.menu {
+		left: -3%;
+	}
+	
+	.menu li {
+		margin-right: 20%;
+	}
+	
+	.menu img {
+		width: 230%;
+	}
+	
+	.anniversary img {
+		width: 440px;
+		left: 0;
+	}
+	
+	.footer {
+		height: 200px;
+	}
+	
+	.bandai img {
+		top: 30px;
+		width: 70%;
+		left: 16%;
+	}
+	
+	.evolution img {
+		left: 17%;
+		width: 70%;
+	}
+	
+	/*Pac-Man & Friends*/
+	
+	.AboutPacman {
+		height: 830px;
+	}
+	
+	.Pac-Man img {
+		top: 530px;
+		left: 1%;
+		width: 60%;
+	}
+	
+	.PacmanStory {
+		left: 8%;
+		top: 6%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.PacmanHeader {
+		left: 65px;
+		font-size: 64px;
+	}
+	
+	.PacmanStory .PacmanText {
+		top: 80px;
+	}
+	
+	.ready {
+		top: 80px;
+	}
+	
+	.PlayNow {
+		left:90px;
+		top: 60px;
+	}
+	
+	.AboutMsPacman {
+		height: 850px;
+	}
+	
+	.MsPac-Man img {
+		top: 470px;
+		left: 30%;
+		width: 60%;
+	}
+	
+	.MsPacmanStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.MsPacManHeader {
+		font-size: 64px;
+	}
+	
+	.Blinky img {
+		top: 470px;
+		width: 60%;
+		left: 1%;
+	}
+	
+	.BlinkyStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.BlinkyHeader {
+		font-size: 64px;
+		left: 24%;
+	}
+	
+	.AboutPinky {
+		height: 850px;
+	}
+	
+	.Pinky img {
+		top: 500px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.PinkyStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.PinkyHeader {
+		font-size: 64px;
+	}
+	
+	.AboutInky {
+		height: 750px;
+	}
+	
+	.Inky img {
+		top: 400px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.InkyStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		height: 400px;
+		z-index: -1;
+	}
+	
+	.InkyHeader {
+		font-size: 64px;
+		left: 140px;
+	}
+	
+	.InkyText {
+		top: 50px;
+	}
+	
+	.AboutClyde {
+		height: 800px;
+	}
+	
+	.Clyde img {
+		top: 450px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.ClydeStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		height: 450px;
+		z-index: -1;
+	}
+	
+	.ClydeHeader {
+		font-size: 64px;
+		left: 120px;
+	}
+	
+	/*AboutFooter*/
+	.Aboutfooter {
+		height: 250px;
+		top:-140px;
+	}
+	
+	.Aboutbandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.Aboutevolution img {
+		left: 15%;
+		width: 70%;
+	}
+}
+
+@media (min-width:481px) and (max-width: 600px){
+	
+	html, body {
+		height: 100%;
+	}
+	.index {
+		overflow-y: scroll;
+	}
+	
+	.menubar {
+		border-bottom-width: 15px;
+		height: 100px;
+	}
+	
+	.logo img {
+		width: 50%;
+	}
+	
+	.menu {
+		left: 7%;
+	}
+	
+	.menu li {
+		margin-right: 15%;
+	}
+	
+	.menu img {
+		width: 220%;
+	}
+	
+	/*Forside*/
+	.anniversary {
+		background-size: cover;
+		height: 660px;
+		border-bottom: 3vw solid #FED800 ;
+	}
+	
+	.anniversary img {
+		top: 20px;
+		width: 100%;
+		left: 0px;
+	}
+	
+	/*Footer*/
+	.footer {
+		height: 220px;
+		top:-136px;
+	}
+	
+	.bandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.evolution img {
+		left: 15%;
+		width: 70%;
+	}
+	
+	/*Pac-Man & Friends*/
+	
+	.AboutPacman {
+		height: 830px;
+	}
+	
+	.Pac-Man img {
+		top: 530px;
+		left: 1%;
+		width: 60%;
+	}
+	
+	.PacmanStory {
+		left: 8%;
+		top: 6%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.PacmanHeader {
+		left: 65px;
+		font-size: 64px;
+	}
+	
+	.PacmanStory .PacmanText {
+		top: 80px;
+	}
+	
+	.ready {
+		top: 80px;
+	}
+	
+	.PlayNow {
+		left:90px;
+		top: 60px;
+	}
+	
+	.AboutMsPacman {
+		height: 850px;
+	}
+	
+	.MsPac-Man img {
+		top: 470px;
+		left: 30%;
+		width: 60%;
+	}
+	
+	.MsPacmanStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.MsPacManHeader {
+		font-size: 64px;
+	}
+	
+	.Blinky img {
+		top: 470px;
+		width: 60%;
+		left: 1%;
+	}
+	
+	.BlinkyStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.BlinkyHeader {
+		font-size: 64px;
+		left: 24%;
+	}
+	
+	.AboutPinky {
+		height: 850px;
+	}
+	
+	.Pinky img {
+		top: 500px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.PinkyStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		z-index: -1;
+	}
+	
+	.PinkyHeader {
+		font-size: 64px;
+	}
+	
+	.AboutInky {
+		height: 750px;
+	}
+	
+	.Inky img {
+		top: 400px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.InkyStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		height: 400px;
+		z-index: -1;
+	}
+	
+	.InkyHeader {
+		font-size: 64px;
+		left: 140px;
+	}
+	
+	.InkyText {
+		top: 50px;
+	}
+	
+	.AboutClyde {
+		height: 800px;
+	}
+	
+	.Clyde img {
+		top: 450px;
+		left: 40%;
+		width: 60%;
+	}
+	
+	.ClydeStory {
+		top:6%;
+		left: 8%;
+		width: 450px;
+		height: 450px;
+		z-index: -1;
+	}
+	
+	.ClydeHeader {
+		font-size: 64px;
+		left: 120px;
+	}
+	
+	/*AboutFooter*/
+	.Aboutfooter {
+		height: 250px;
+		top:-140px;
+	}
+	
+	.Aboutbandai img{
+		left: 14%;
+		width: 70%;
+	}
+	
+	.Aboutevolution img {
+		left: 15%;
+		width: 70%;
+	}
+}
 
 
 
